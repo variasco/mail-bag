@@ -2,6 +2,7 @@
 email client app
 
 Чтобы запустить проект необходимо:
+
 0. Заполнить файл `/server/serverInfo.json` по образцу:
 ```
 {
