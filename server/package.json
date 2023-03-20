@@ -1,11 +1,11 @@
 {
-  "name": "server",
+  "name": "mailbag-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "MailBag Server",
   "main": "index.js",
   "scripts": {
     "compile": "npx tsc && node ./dist/main.js",
-    "dev": "./node_modules/nodemon/bin/nodemon.js -e ts --exec \"npm run compile\""
+    "dev": "node ./node_modules/nodemon/bin/nodemon.js -e ts --exec \"npm run compile\""
   },
   "author": "",
   "license": "ISC",
